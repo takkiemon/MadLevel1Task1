@@ -38,7 +38,7 @@ class HigherLowerActivity : AppCompatActivity() {
      * Update the last throw text and the dice image resource drawable with the current throw.
      */
     private fun updateUI() {
-        binding.textPrevRoll.text = getString(R.string.base_previous_roll_text, currentRoll, previousRoll)
+        binding.textPrevRoll.text = getString(R.string.base_previous_roll_text, previousRoll)
         when (currentRoll) {
             1 -> binding.imgDie.setImageResource(R.drawable.dice1)
             2 -> binding.imgDie.setImageResource(R.drawable.dice2)
