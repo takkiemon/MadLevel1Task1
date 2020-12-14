@@ -4,7 +4,9 @@
     <string name="button_equal">EQUAL</string>
     <string name="button_higher">HIGHER</string>
     <string name="explanation_text">Guess if the next roll is going to be lower, equal or higher</string>
-    <string name="previous_roll_text">Previous Roll: </string>
+    <string name="base_previous_roll_text">Current Roll: %d \nPrevious Roll: %d</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
 
     <!--non-visible string values-->
     <string name="image_die_description">currently rolled die</string>
